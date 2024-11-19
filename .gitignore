@@ -4,3 +4,6 @@
 
 /Blog.API/.vs/Blog.API
 /Blog.API/obj
+/.vs
+/UI/.vs
+/UI/.vscode
