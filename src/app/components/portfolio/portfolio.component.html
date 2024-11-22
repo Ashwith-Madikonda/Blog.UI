@@ -1,6 +1,6 @@
-<div class="container">
-    <div class="sections">
-        <div class="section-light header">
+<div class="portfolio-container col-12">
+    <div class="sections col-12">
+        <div class="section-light header col-12">
             <div class="logo">
                 <img class="logo-image" src="logo.svg">
             </div>
@@ -10,14 +10,57 @@
                 <span class="menu-item">Contact</span>
             </div>
         </div>
-        <div class="section-light cover">
-            1
+        <div class="section-light cover col-12">
+            <div class="cover-left col-4">
+                <div class="name">
+                    <h3>I'M</h3>
+                    <h1>Ashwith Madikonda</h1>
+                </div >
+                <div  class="title">
+                    <h3>.Net Developer & Information Security Analyst </h3>
+                </div>
+                <div  class="contact">
+                    <button class="button">Contact Me</button>
+                </div>
+            </div>
+            <div class="cover-centre col-6">
+                <img src="ashwith-BW.png"> 
+            </div> 
+            <div class="cover-right col-2">
+                <div class="top"></div> 
+                <div class="bottom">
+                    <div class="line"></div>
+                    <div class="icons">
+                        <i class="bi bi-linkedin"></i>
+                        <i class="bi bi-github"></i>
+                        <i class="bi bi-whatsapp"></i>
+                        <i class="bi bi-instagram"></i> 
+                    </div>
+                </div> 
+            </div> 
         </div>
         <div class="section-dark about">
-            2
+            <h1>About</h1>
+            <div class="description">
+                <div class="line col-3"></div>
+                <div class="text col-9">
+                    Skilled information technologies professional with 5 years of experience as an application developer specializing in scalable web applications, following agile and scrum methodologies. Currently pursuing a postgraduate diploma in cybersecurity and looking for opportunities to expand and enhance experience in the areas of Full stack development and information & data security
+                </div>
+            </div>
+            <div class="skills">
+                <div class="header">My Skills</div>
+                <div class="skills-list">
+                    <div *ngFor="let skill of skillsData" class="skill-card">
+                        <span>{{skill.skillName}}</span>
+                        <img  [src]="skill.image">
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <div class="section-light experience">
-            1
+        <div class="section-light experience col-12">
+            <div class="header">Experience</div>
+            <div class="exp-details col-12"></div>
         </div>
         <div class="section-dark testimonial">
             1
