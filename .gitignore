@@ -8,5 +8,6 @@
 /UI/.vs
 /UI/.vscode
 /node_modules
+/dist
 /.vscode
 /.angular
